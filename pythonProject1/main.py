@@ -18,13 +18,9 @@ def math(x):
 
 
 if __name__ == '__main__':
-
-
-
     for i in range(100):
-
         if i == 50:
-            break
+            continue
 
         sum = math(i)
         print(sum)
